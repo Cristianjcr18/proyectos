@@ -1,0 +1,132 @@
+
+
+.leo{
+    border-radius: 45%;
+    border: 1px solid aqua;
+    padding: 10px;
+    margin-left: 20px;
+  }
+
+.nombre{   
+    font-size: 150%;
+    background-color: #e7f8f8;
+    padding-left: 50px;
+    padding-right: 380px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+   
+}
+.des{
+    background-color: #e7f8f8;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: -10px;
+    
+    
+}
+table{
+    margin-top: 50px;
+    margin-left: 100px;
+   
+}
+td,tr{
+    
+    padding-left: 50px;
+    padding-right: 150px;
+   
+}
+.fa-solid{
+    font-size: 150%;
+}
+.division{
+    border-color: aqua;
+    width: 1066px;
+    margin-left: 180px;
+}
+.fa-brands{
+    font-size: 150%;
+}
+
+.letraazul{
+    color: rgb(51, 177, 250);
+}
+
+.linea{
+   border-color: aqua;
+}
+
+.recta2{
+   width: 35%;
+   transform: rotate(90deg);
+   margin-left: 900px;
+  
+}
+
+.total{
+   height: 16px;
+   background-color: #e7f8f8;
+
+}
+
+.hab{
+   height: 16px;
+   background-color: rgb(11, 153, 163);
+   margin-top: -16px;
+}
+
+.table2{
+    margin-left: 122px;
+}
+
+.table3{
+    margin-left: 115px;
+}
+ 
+.hoja{
+    background-color: white;
+    margin: 50px;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    position: relative;
+    display: grid;
+    max-width: 1250px;
+    min-height: 1200px;
+    box-shadow: 1px 10px 10px 10px ;
+}
+.fuera{
+    background-color: gray;
+}
+
+.lorem{
+    width: 600px;
+}
+.division2{
+    border-color: aqua;
+    width: 1066px;
+
+}
+.borde{
+    height: 40px;
+    background-color: rgb(11, 153, 163);
+}
+.borde1{
+    height: 40px;
+    background-color: rgb(11, 153, 163);
+}
+.borde2{
+    height: 40px;
+    background-color: rgb(11, 153, 163);
+    transform: rotate(90deg);
+    margin-left: 456px;
+
+}
+.borde21{
+    height: 40px;
+    background-color: rgb(11, 153, 163);
+    transform: rotate(90deg);
+    margin-left: 772px;
+    
+}
