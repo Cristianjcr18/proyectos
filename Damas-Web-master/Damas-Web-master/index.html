@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Damas</title>
+	<link rel="stylesheet" href="estilo.css">
+	<script src="juego.js"></script>
+</head>
+
+<body>
+
+    <div>
+	
+		<h1>DAMAS</h1>
+		
+		<p>-Las fichas se mueven una posición adelante, nunca hacia atrás,<br> en diagonal
+			 a la derecha o a la izquierda y a una posición <br>adyacente que se encuentre vacía. <br>  
+		   -Para comerte las fichas rivales debes saltar en diagonal por <br> encima de ellas y caer en una casilla vacía.<br> 
+		   -No podrás jugar una ficha si hay otra que tiene la posibilidad <br> de "comerse" una ficha rival. Deberás "comertela" para continuar.<br>
+		   -Ganas cuando el rival no tenga más fichas.
+		</p>
+		
+		<canvas id="lienzo"></canvas>
+		<br>
+		<p id="esTurno">Fichas Blancas Comienzan </p>
+		<input type="button" id="resetButton" value="Nueva partida">
+		<input type="button" id="loadButton" value="Cargar partida">
+		<input type="button" id="saveButton" value="Guardar partida">
+		<input type="button" id="empateButton" value="Terminar partida">
+	
+		<script>
+			iniciarJuego(document.getElementById('lienzo'), document.getElementById('count'));
+		</script>
+
+	</div>	
+</body>
+</html>

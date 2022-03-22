@@ -1,0 +1,16 @@
+body{
+	width: auto;
+	display:grid;
+	justify-content: center;
+	align-items: center;                  
+	background: #400f53;  
+	color: white;
+}
+h3{
+	text-decoration:underline;
+}
+
+h1{
+    text-decoration:underline;
+
+}
